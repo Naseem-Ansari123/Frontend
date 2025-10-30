@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom, #ffa585, #45c5d8);
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.Password-generator {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    box-shadow: 8px 8px 4px #909090, 8px 8px 0px #575757;
+    border-radius: 10px;
+    padding: 28px 32px;
+    background: transparent;
+
+    /* line-height: 30px; */
+}
+
+.container h1 {
+    font-size: 1.4rem;
+    margin-block: 8px;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.passBox {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    margin: 10px;
+}
+
+
+.inputBox i {
+    position: relative;
+    right: 35px;
+    color: #575757;
+    cursor: pointer;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+.row label,
+input {
+    cursor: pointer;
+
+}
+
+.row input {
+    width: 43px;
+    height: 24px;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 300;
+}

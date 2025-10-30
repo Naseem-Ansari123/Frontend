@@ -1,0 +1,26 @@
+@media (max-width:900px) {
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+@media (max-width:500px) {
+    .inside-navbar .link{
+        display: none;
+    }
+
+    .navbar .hamburger{
+        display: flex;
+                margin-left: 100px;
+
+    }
+
+    .inside-navbar .logo{
+        display: flex;
+        justify-content: center;
+    }
+}
